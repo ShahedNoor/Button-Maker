@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <!-- Author: Shahed Noor -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Maker</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Font Awesome End -->
+</head>
+<body>
+    <!-- This is header -->
+    <div class="header">
+        <h2>CSS Button Maker <span><a href="index.html"><i class="fa fa-home"></i></a></span></h2>
+    </div>
+
+    <!-- This is button preview -->
+    <div class="btn-prev">
+        <h2>Button Preview</h2>
+        <div id="StyleD">
+            <button class="" id="StyleB"><a id="StyleBA">Button</a></button>
+        </div>
+    </div>
+    <!-- Button preview end -->
+
+    <!-- Button text input -->
+    <div class="txt-input">
+        <input type="text" placeholder="Enter Your Button Text" onchange="StyleType(this.value)">
+    </div>
+    <!-- Button text input end -->
+
+    <!-- This is slider control -->
+    <div class="btn-styling">
+        <h2>Font Size: <input class="slider" type="range" min="10" max="90" value="10" onchange="StyleFontSize(this.value)"></h2>
+    </div>
+
+    <div class="btn-styling">
+        <h2>Padding At Sides: <input class="slider" type="range" min="0" max="80" value="0" onchange="StylePaddingS(this.value)"></h2>
+    </div>
+
+    <div class="btn-styling">
+        <h2>Padding At Top & Bottom: <input class="slider" type="range" min="0" max="90" value="0" onchange="StylePaddingTB(this.value)"></h2>
+    </div>
+
+    <div class="btn-styling">
+        <h2>Border Radius: <input class="slider" type="range" min="0" max="100" value="0" onchange="StyleBorderR(this.value)"></h2>
+    </div>
+
+    <div class="btn-styling">
+        <h2>Border Size: <input class="slider" type="range" min="0" max="20" value="0" onchange="StyleBorderS(this.value)"></h2>
+    </div>
+    <!-- Slider control end here -->
+
+    <!-- This is color selector -->
+    <div class="select-color">
+        <div class="font-color">
+            <h2>Font Color: <input class="color"  type="color" min="0" max="100" value="0"   onclick="StyleColor(this.value)" onchange="StyleColor(this.value)"></h2>
+        </div>
+        <div class="bg-color">
+            <h2>Background Color: <input class="color"  type="color" min="0" max="100" value="0"   onclick="StyleBackground(this.value)" onchange="StyleBackground(this.value)"></h2>
+        </div>
+        <div class="border-color">
+            <h2>Border Color: <input class="color"  type="color" min="0" max="100" value="0"   onclick="StyleBorderC(this.value)" onchange="StyleBorderC(this.value)"></h2>
+        </div>
+    </div>
+    <!-- Color Selector end here -->
+
+    <!-- Button code generator -->
+    <div class="code-generator">
+        <button id="StyleGB" onclick="StyleGenerate()">View Code</button>
+        <h4>Copy This Code, Use & Enjoy 🙂</h4>
+        <textarea id="StyleG" placeholder="Please Copy Your Button Code From Here"></textarea>
+    </div>
+    <!-- Button code genetator end here -->
+
+    <!-- Footer Start -->
+    <div class="footer">
+        <p>Designed & Developed By <span><a href="https://shahednoor.w3spaces.com">Shahed Noor</a></span><br>Copyright 2022</p>
+    </div>
+
+    <!-- Linked JavaScript file -->
+    <script src="script.js"></script>
+    <!-- Link JavaScript file end -->
+</body>
+</html>

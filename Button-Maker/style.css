@@ -1,0 +1,127 @@
+* {
+    font-family: monospace;
+}
+body {
+    background-color: white;
+}
+.header {
+    background: #1DBF73;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    line-height: 50px;
+}
+.header h2 {
+    margin-left: 30px;
+    padding: 5px;
+    color: white;
+}
+.header h2 span a {
+    text-decoration: none;
+    color: white;
+    float: right;
+    padding: 13px;
+}
+.btn-prev {
+    margin-top: -20px;
+    text-align: center;
+    border: 5px solid #1DBF73;
+    min-height: 200px;
+}
+.btn-prev a {
+    text-decoration: none;
+}
+.btn-prev h2 {
+    text-align: center;
+    font-weight: bold;
+    padding: 4px;
+    background-color: #1DBF73;
+    color: white;
+    display: inline-block;
+    border-radius: 4px;
+    
+}
+.btn-prev button {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.txt-input {
+    text-align: center;
+    padding: 5px;
+    background: #1DBF73;
+    border-radius: 0px 0px 10px 10px;
+}
+.txt-input input {
+    width: 40%;
+    height: 35px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #1DBF73;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    outline-color: white;
+    outline-style: double;
+}
+.btn-styling {
+    background: #1DBF73;
+    border-radius: 5px;
+}
+.btn-styling h2 {
+    color: white;
+    margin-left: 10px;
+    padding: 10px;
+}
+.select-color {
+    background: #1DBF73;
+    border-radius: 5px;
+    padding: 10px;
+}
+.font-color, .bg-color, .border-color {
+    margin-left: 10px;
+    color: white;
+}
+.code-generator {
+    border: 5px solid #1DBF73;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+.code-generator button {
+    background-color: #1DBF73;
+    border: 0px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.code-generator button:hover {
+    color: white;
+    background-color: red;
+}
+.code-generator h4 {
+    font-weight: bold;
+}
+.code-generator textarea {
+    height: 100px;
+    width: 95%;
+    text-align: center;
+    outline-color: #1DBF73;
+}
+.footer {
+    background-color: #1DBF73;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 10px
+}
+.footer p {
+    color: white;
+}
+.footer span a {
+    color: #0255a3;
+    text-decoration: none;
+}
+.footer span a:hover {
+    color: white;
+}
